@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+@layer base {
+    @font-face {
+        font-family: 'Beaufort' ;
+        src: url('/public/assets/font/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf') format('otf');
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: 'Beaufort' ;
+        src: url('/public/assets/font/BeaufortForLoL-OTF/BeaufortforLOL-BoldItalic.otf') format('otf');
+        font-weight: 700;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: 'Beaufort' ;
+        src: url('/public/assets/font/BeaufortForLoL-OTF/BeaufortforLOL-Medium.otf') format('otf');
+        font-weight: 500;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: 'SPIEGEL' ;
+        src: url('/public/assets/font/Spiegel-OTF/Spiegel-Bold.otf') format('otf');
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: 'SPIEGEL' ;
+        src: url('/public/assets/font/Spiegel-OTF/Spiegel-Regular.otf') format('otf');
+        font-weight: 500;
+    }
+}
+
